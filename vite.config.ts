@@ -6,7 +6,11 @@ import viteReact from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [
-    tanstackStart(),
+    tanstackStart({
+      spa: {
+        enabled: true,
+      },
+    }),
     netlify(),
     viteReact(),
     tailwindcss(),
