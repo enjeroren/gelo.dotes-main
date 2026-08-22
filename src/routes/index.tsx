@@ -4,13 +4,13 @@ import heroAsset from "../assets/gelo-dotes.png";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Gelo — Web Developer & Video Editor" },
+      { title: "Gelo Web Developer & Video Editor" },
       {
         name: "description",
         content:
           "Portfolio of Gelo, a web developer building TypeScript, React and Supabase apps, and a video editor crafting cinematic edits.",
       },
-      { property: "og:title", content: "Gelo — Web Developer & Video Editor" },
+      { property: "og:title", content: "Gelo Web Developer & Video Editor" },
       {
         property: "og:description",
         content: "React + TypeScript + Supabase products and cinematic video editing.",
@@ -34,7 +34,7 @@ function Index() {
               <span className="text-gradient">stories that move</span>.
             </h1>
             <p className="mt-5 max-w-lg text-lg text-muted-foreground">
-              Full-stack work in TypeScript, React and Supabase — plus a second craft in the
+              Full-stack work in TypeScript, React and Supabase plus a second craft in the
               timeline, editing and grading video that keeps people watching.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
