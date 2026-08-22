@@ -4,13 +4,13 @@ import { PageHeader, SiteLayout } from "@/components/SiteLayout";
 export const Route = createFileRoute("/career")({
   head: () => ({
     meta: [
-      { title: "Career & Experience — Gelo" },
+      { title: "Career & Experience Gelo" },
       {
         name: "description",
         content:
           "Career timeline of Gelo: React and TypeScript development, Supabase backends, and professional video editing work.",
       },
-      { property: "og:title", content: "Career & Experience — Gelo" },
+      { property: "og:title", content: "Career & Experience Gelo" },
       {
         property: "og:description",
         content: "Roles, projects and skills across web development and video editing.",

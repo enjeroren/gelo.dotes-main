@@ -33,7 +33,7 @@ function About() {
         <div className="space-y-4 text-muted-foreground">
           <p>
             I'm a web developer focused on modern React applications. Most of my work lives in a
-            TypeScript + React front-end with a Supabase (Postgres) backend — auth, row-level
+            TypeScript + React front-end with a Supabase (Postgres) backend auth, row-level
             security, storage and realtime included. I care about typed boundaries, small
             components, and interfaces that stay fast as they grow.
           </p>
